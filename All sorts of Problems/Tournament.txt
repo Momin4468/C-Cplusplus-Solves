@@ -1,0 +1,87 @@
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+struct tournamentStruct
+{
+    char name[20];
+    struct teamStruct team[4];
+};
+
+struct teamStruct
+{
+    char name[20];
+    struct playerStruct player[16];
+};
+
+struct playerStruct
+{
+    char name[15];
+    float avg;
+    int totalMatch;
+};
+
+int main()
+{
+    struct tournamentStruct tournament[3];
+    for (int i = 0; i < 2; i++)
+    {
+        if (i == 0)
+        {
+            strcpy(tournament[i].name, "BPL");
+        }
+        else
+        {
+
+            strcpy(tournament[i].name, "IPL");
+        }
+
+        for (int j = 0; j < 3; j++)
+        {
+            strcpy(tournament[i].team[j].name, "Team" + i);
+            for (int k = 0; k < 13; k++)
+            {
+                strcpy(tournament[i].team[j].player[k].name, "Player" + i);
+                tournament[i].team[j].player[k].avg = rand() % 50;
+                tournament[i].team[j].player[k].totalMatch = rand() % 300;
+            }
+        }
+    }
+
+    int tourNum, teamNum, playerNum;
+
+    printf("Welcome to cricket games\n");
+    printf("Select Tournament\n");
+    printf("1: BPL\t2: IPL");
+
+    scanf("%d", &tourNum);
+
+    tourNum--;
+
+    printf("Welcome to %s\n", tournament[tourNum].name);
+    printf("Teams in %s\n", tournament[tourNum].name);
+    for (int j = 0; j < 3; j++)
+    {
+        printf("%d: %s\t", j + 1, tournament[tourNum].team[j].name);
+    }
+    printf("Select Team\n");
+    scanf("%d", &teamNum);
+    teamNum--;
+
+    printf("Team %s\n", tournament[tourNum].team[teamNum].name);
+    printf("Players in %s\n", tournament[tourNum].team[teamNum].name);
+
+    for (int j = 0; j < 13; j++)
+    {
+        printf("%d: %s\n", j + 1, tournament[tourNum].team[teamNum].player[j].name);
+    }
+
+    printf("Select Player\n");
+    scanf("%d", &playerNum);
+    playerNum--;
+    printf("player info:\n");
+    printf("name\taverage\ttotal match");
+    printf("..............\t............\t............");
+    printf("%s\t%f\t%d\n", tournament[tourNum].team[teamNum].player[playerNum].name, tournament[tourNum].team[teamNum].player[playerNum].avg, tournament[tourNum].team[teamNum].player[playerNum].totalMatch);
+}

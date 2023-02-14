@@ -1,0 +1,67 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CLINT: 1
+TAX ID.:001BANTAX00999900
+
+NAME: Mamun, Mumin .
+CONTACT: 01905893802
+NID: 18242
+PRESENT ADDRESS : Bhola, Jani, na, jani-na
+PARMANENT ADDRESS : jani, na, jajn, jan-jajn
+OCCUPATION: jab
+
+
+TOTAL INCOME (YEARLY) : 292752.00
+TOTAL EXPENSE (YEARLY): 30000.00
+              ________________________
+			262752.00
+
+
+STATUS: NOT TAXABLE )
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CLINT: 2
+TAX ID.:002BANTAX00999800
+
+NAME: egvyfy, gvfh .
+CONTACT: 6565
+NID: 41654154
+PRESENT ADDRESS : 4sfs, ssfs, sdfs, sds-sdfs
+PARMANENT ADDRESS : sfs, ss, sddff, sdfs-sddff
+OCCUPATION: sddff
+
+
+TOTAL INCOME (YEARLY) : 2700270.16
+TOTAL EXPENSE (YEARLY): 86528.00
+              ________________________
+			2613742.16
+
+
+STATUS: TAXABLE 
+->TAX: 261374.22
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CLINT: 3
+TAX ID.:003BANTAX00999700
+
+NAME: ishd, ziHad .
+CONTACT: 065955416
+NID: +9655
+PRESENT ADDRESS : jnsa, saihdb'usdg, sudf, sfdy'udf-sudf
+PARMANENT ADDRESS : ashgd, kjdsg, hj, jsfd-hj
+OCCUPATION: sdgh
+
+
+TOTAL INCOME (YEARLY) : 6331362951.92
+TOTAL EXPENSE (YEARLY): 9256.00
+              ________________________
+			6331353695.92
+
+
+STATUS: TAXABLE 
+->TAX: 633135369.59
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+___________________________________END____________________________________________________________________
+
+
